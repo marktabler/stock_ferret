@@ -7,10 +7,10 @@ module Ferrety
 
     def initialize(params)
       super
-      @symbol = params["zip"]
-      @instruction = params["term"]
-      @low_threshold = params["low_threshold"].to_i
-      @high_threshold = params["high_threshold"].to_i  
+      @symbol = @params["symbol"]
+      @instruction = @params["term"]
+      @low_threshold = @params["low_threshold"].to_i
+      @high_threshold = @params["high_threshold"].to_i  
     end
 
     def search
