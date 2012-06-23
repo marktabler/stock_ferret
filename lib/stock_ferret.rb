@@ -6,11 +6,11 @@ module Ferrety
     attr_accessor :symbol, :instruction, :low_threshold, :high_threshold
 
     def initialize(params)
-      @symbol = params[:zip]
-      @instruction = params[:term]
-      @low_threshold = params[:low_threshold].to_i
-      @high_threshold = params[:high_threshold].to_i
       super
+      @symbol = params["zip"]
+      @instruction = params["term"]
+      @low_threshold = params["low_threshold"].to_i
+      @high_threshold = params["high_threshold"].to_i  
     end
 
     def search
