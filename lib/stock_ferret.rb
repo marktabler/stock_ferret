@@ -1,5 +1,5 @@
 require 'market_beat'
-require 'ferrety_ferret'
+require 'ferrety'
 
 module Ferrety
   class StockFerret < Ferret
