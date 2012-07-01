@@ -8,7 +8,7 @@ module Ferrety
     def initialize(params)
       super
       @symbol = @params["symbol"]
-      @instruction = @params["term"]
+      @instruction = @params["instruction"]
       @low_threshold = @params["low_threshold"].to_i
       @high_threshold = @params["high_threshold"].to_i  
     end

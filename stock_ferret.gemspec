@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "stock_ferret"
   gem.require_paths = ["lib"]
-  gem.version       = '0.0.2'
+  gem.version       = '1.0.0'
 
   gem.add_dependency "market_beat"
 end
